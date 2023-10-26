@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startseite</title>
+    
+    <style>
+      .title {
+        text-align: center;
+      }
+
+      .next-event {
+        text-align: center;
+        color: red;
+      }
+
+      .menue {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center; 
+
+        gap: 10%;
+        grid-auto-flow: column;
+      }
+
+      .menue-point {
+        margin-top: 5%;
+      }
+
+      .menue-button {
+        background: #fff; 
+        border: 0.125em solid #333; 
+        color: #333; 
+        border-radius: 0.25em; 
+        padding: 0.625em 1.25em; 
+        font-size: 1em; 
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
+        
+      }
+
+      .menue-button:hover {
+        background: #333; 
+        color: #fff;
+      }
+
+      .menue-text:hover {
+        background-color: white;
+        cursor: pointer;
+      }
+
+      .main-part {
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgb(248, 247, 247); 
+        border: 0.125em solid #333; 
+        border-radius: 0.25em; 
+        padding: 0.625em 1.25em; 
+        font-size: 1em; 
+      }
+
+      .article-grid {
+        display: grid;
+        grid-auto-flow: column;
+        
+        row-gap: 15%;
+        margin-top: 5%;
+      }
+
+      .thumbnail {
+        width: 100%;
+      }
+
+      .thumbnail-row {
+        margin-bottom: 2%;
+      }
+
+      .profile-picture {
+        border-radius: 100%;
+        width: 10%;
+      }
+
+      .article-info-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .article-author {
+        display: inline-block;
+        margin-left: 3%;
+        margin-top: 2.3%;
+        vertical-align: top;
+      }
+
+      .article-preview {
+        margin-left: 5%;
+        margin-right: 5%;
+        background: #fff; 
+        border: 0.125em solid #333; 
+        color: #333; 
+        border-radius: 0.25em; 
+        padding: 0.625em 1.25em; 
+        cursor: pointer;
+        transition: opacity 0.3s
+      }
+
+      .article-preview:hover {
+        opacity: 0.85;
+      }
+
+      .article-title {
+        font-weight: bold;
+        margin-top: 0;
+      }
+
+      .author-info {
+        
+
+      }
+
+      
+
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Helmholtzschule</h1>
+    <h3 class="next-event">Weihnachtskonzert am 15 Dezember</h2>
+    <div class="main-part">
+      <div class="menue">
+        <div class="menue-point">
+          <a href="https://www.youtube.com">
+            <button class="menue-button">Übersicht</button>
+          </a> 
+        </div>
+        <div class="menue-point">
+          <a href="https://www.youtube.com">
+            <button class="menue-button">Wer wir sind</button>
+          </a> 
+        </div>
+        <div class="menue-point">
+          <a href="https://www.youtube.com">
+            <button class="menue-button">Termine</button>
+          </a> 
+        </div>
+        <div class="menue-point">
+          <a href="https://www.youtube.com">
+            <button class="menue-button">Vertretungsplan</button>
+          </a> 
+        </div>
+      </div>
+
+      <div class="article-grid">
+        <div class="article-preview">
+          <div class="thumbnail-row">
+            <img  class="thumbnail" src="thumbnails/programming-1873854_1280.png">
+          </div>
+          <div class="article-info-grid">
+            
+            <div class="article-info">
+              <p class="article-title">
+                SV Website wird programmiert
+              </p>
+            </div>
+            <div class="author-info">
+              <img class="profile-picture" src="profile-pictures/hacker-3342696_1280.jpg">
+              <p class="article-author">
+                Erik
+              </p>
+            </div>
+          </div>      
+        </div>
+
+        <div class="article-preview">
+          <div class="thumbnail-row">
+            <img  class="thumbnail" src="thumbnails/programming-1873854_1280.png">
+          </div>
+          <div class="article-info-grid">
+            
+            <div class="article-info">
+              <p class="article-title">
+                SV Website wird programmiert
+              </p>
+            </div>
+            <div class="author-info">
+              <img class="profile-picture" src="profile-pictures/hacker-3342696_1280.jpg">
+              <p class="article-author">
+                Erik
+              </p>
+            </div>
+          </div>      
+        </div>
+
+        <div class="article-preview">
+          <div class="thumbnail-row">
+            <img  class="thumbnail" src="thumbnails/programming-1873854_1280.png">
+          </div>
+          <div class="article-info-grid">
+            
+            <div class="article-info">
+              <p class="article-title">
+                SV Website wird programmiert
+              </p>
+            </div>
+            <div class="author-info">
+              <img class="profile-picture" src="profile-pictures/hacker-3342696_1280.jpg">
+              <p class="article-author">
+                Erik
+              </p>
+            </div>
+          </div>      
+        </div>
+      </div>
+
+      
+
+
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+      
+    </div>
+  </body>
+</html>
