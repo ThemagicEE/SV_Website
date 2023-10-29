@@ -1,13 +1,15 @@
 .menue-background {
-  background-color: rgb(37, 37, 37);
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
 }
 
 .menue {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .menue-point {
@@ -17,7 +19,6 @@
 .menue-button {
   color: white;   
   cursor: pointer;
-  transition: background 0.3s, color 0.3s, border-color 0.3s;
   border: 1px solid transparent;
   padding-top: 5%;
   padding-bottom: 5%;
