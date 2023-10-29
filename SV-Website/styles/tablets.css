@@ -1,0 +1,5 @@
+@media (min-width: 481px) {
+  .second-line {
+    grid-template-columns: 12% 76% 12%;
+  }
+}

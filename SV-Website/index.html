@@ -3,10 +3,15 @@
   <head>
     <title>Startseite</title>
     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/article-preview.css">
     <link rel="stylesheet" href="styles/menue.css">
-    
+    <link rel="stylesheet" href="styles/smartphone.css">
+    <link rel="stylesheet" href="styles/tablets.css">
+    <link rel="stylesheet" href="styles/overlay-meneu.css">
+    <link rel="stylesheet" href="styles/computer.css">
     <style>
       .title {
         text-align: center;
@@ -41,6 +46,28 @@
         opacity: 0.5;
       }
 
+      .icon-social-white {
+        width: 20px;
+        transition: all 0.2s;
+        cursor: pointer;
+        margin-top: 0.3125em;
+      }
+
+      .left-menue {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+      }
+
+      .icon-social-white:hover {
+        width: 25px;
+      }
+
+      .icon-social-white:active {
+        opacity: 0.5;
+      }
+
+
       .middle-section {
         display: flex;
         justify-content: center;
@@ -51,26 +78,23 @@
         color: rgb(255, 0, 0);
         display: inline-block;
         margin: 0;
-      }
-
-      
-
-            
-
+      }                  
     </style>
+
+
   </head>
   <body>
     <div class="website">
       <h1 class="title"> SV der Helmholtzschule</h1>
       <div class="second-line">
         <div class="left-section">
-          <a href="https://www.youtube.com" target="_blank">
+          <a href="https://www.facebook.com" target="_blank">
             <img class="facebook-icon icon-social" src="icons/facebook-icon.svg">
           </a>
-          <a href="https://www.youtube.com" target="_blank">
+          <a href="https://twitter.com/" target="_blank">
             <img class="twitter-icon icon-social" src="icons/twitter-icon.svg">
           </a>
-          <a href="https://www.youtube.com" target="_blank">
+          <a href="https://www.instagram.com/sv.helmholtzschule/" target="_blank">
             <img class="instagram-icon icon-social" src="icons/instagram-icon.svg">
           </a>
           <a href="https://www.youtube.com" target="_blank">
@@ -85,6 +109,20 @@
       </div>
       
       <div class="menue-background">
+        <div class="left-menue">
+          <a class="soical-link" href="https://www.facebook.com/" target="_blank">
+            <img class="facebook-icon icon-social-white" src="icons/facebook-icon-white.svg">
+          </a>
+          <a class="soical-link" href="https://twitter.com/" target="_blank">
+            <img class="twitter-icon icon-social-white" src="icons/twitter-icon-white.svg">
+          </a>
+          <a class="soical-link" href="https://www.instagram.com/sv.helmholtzschule/" target="_blank">
+            <img class="instagram-icon icon-social-white" src="icons/instagram-icon-white.svg">
+          </a>
+          <a class="soical-link" href="" target="_blank">
+            <img class="whatsapp-icon icon-social-white" src="icons/whatsapp-icon-white.svg">
+          </a>
+        </div>
         <div class="menue">
           <div class="menue-point">
             <a class="menue-link" href="https://www.youtube.com">
@@ -107,8 +145,39 @@
             </a> 
           </div>
         </div>
+        <div class="right-menue">
+          <button class="hamburger-button" onclick="openNav()">
+            <img class="hamburger-icon" src="icons/hamburger-icon.svg">
+          </button>
+        </div>
       </div>
       
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">Aktuelles</a>
+          <a href="#">Wer wir sind</a>
+          <a href="#">Termine</a>
+          <a href="#">Vertretungsplan</a>
+        </div>
+
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+
       <div class="main-part">
         <div class="article-grid">
           <div class="article-preview">

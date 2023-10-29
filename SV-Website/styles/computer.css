@@ -1,0 +1,40 @@
+
+@media (min-width: 769px) {
+  .second-line {
+    grid-template-columns: 10% 80% 10%;
+  }
+  
+  .hamburger-icon {
+    display: none;
+  }
+
+  .icon-social {
+    display: unset;
+  }
+
+  .icon-social-white {
+    display: none;
+  }
+
+  .menue-background {
+    display: grid;
+    grid-template-columns: 10% 80 10%;
+  }
+
+  .article-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+    
+    row-gap: 15%;
+    margin-top: 2%;
+  }
+
+  .menue-point {
+    display: unset;
+  }
+
+  .right-menue {
+    display: none;
+  }
+}
