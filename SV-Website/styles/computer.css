@@ -37,4 +37,9 @@
   .right-menue {
     display: none;
   }
+
+  .text {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }

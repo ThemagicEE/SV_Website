@@ -2,4 +2,8 @@
   .second-line {
     grid-template-columns: 12% 76% 12%;
   }
+
+  .next-event {
+    font-size: unset;
+  }
 }
