@@ -51,4 +51,12 @@
     row-gap: 10%;
     margin-top: 2%;
   }
+
+  .helmholtzschule-logo {
+    display: none;
+  }
+
+  .first-line {
+    grid-template-columns: 1fr;
+  }
 }

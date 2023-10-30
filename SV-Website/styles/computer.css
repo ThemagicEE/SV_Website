@@ -42,4 +42,17 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+
+  
+}
+
+
+@media all (min-width: 1025px) {
+  
+  .helmholtzschule-logo {
+    display: unset;
+  }
+    
+  
+
 }
