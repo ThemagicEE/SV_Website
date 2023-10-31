@@ -34,5 +34,19 @@
   border-top: 1px solid;     
   border-bottom: 1px solid;   
   cursor: pointer;
-}      
+}    
+
+.bottom-part {
+  display: flex;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(65, 65, 65);
+  text-align: center;
+  padding-left: 5%;
+}
+
+.bottom-text {
+  color: white;
+}
 

@@ -1,6 +1,7 @@
 .article-grid {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  height: auto;
   
   
   row-gap: 15%;

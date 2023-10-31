@@ -1,0 +1,67 @@
+.title {
+  text-align: center;
+  margin-bottom: 0%;
+  font-family: Mountains of Christmas;
+}
+
+.second-line {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.left-section {
+  display: flex;
+  height: 25px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.icon-social {
+  width: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.icon-social:hover {
+  width: 25px;
+}
+
+.icon-social:active {
+  opacity: 0.5;
+}
+
+.icon-social-white {
+  width: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-top: 0.3125em;
+}
+
+.left-menue {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.icon-social-white:hover {
+  width: 25px;
+}
+
+.icon-social-white:active {
+  opacity: 0.5;
+}
+
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+.next-event {
+  color: rgb(255, 0, 0);
+  display: inline-block;
+  margin: 0;
+}

@@ -36,7 +36,7 @@
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
   color: red;
-
+  cursor: pointer;
 }
 
 /* Position the close button (top right corner) */

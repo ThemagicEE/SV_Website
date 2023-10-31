@@ -1,0 +1,23 @@
+.t-ämter {
+  width: 100%;
+  align-self: center;
+  text-align: left;
+}
+
+
+th, td {
+  padding: 0.9375em;
+  text-align: left;
+  border-bottom: 0.0625em solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #ececec;
+}
+
+.ämter {
+  display: flex;
+  justify-content: space-around;
+  overflow-x:auto;
+  overflow-x:scroll;
+}

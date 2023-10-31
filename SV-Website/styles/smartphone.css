@@ -44,6 +44,14 @@
     border: none;
   }
 
+  .hamburger-button:hover {
+    cursor: pointer;
+  }
+
+  .hamburger-button:active {
+    opacity: 0.5;
+  }
+
   .article-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -57,6 +65,7 @@
   }
 
   .first-line {
-    grid-template-columns: 1fr;
+    display: unset;
+    
   }
 }

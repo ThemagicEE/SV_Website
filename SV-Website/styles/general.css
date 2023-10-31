@@ -29,3 +29,7 @@ h4 {
   text-align: center;
 }
 
+.middle-section {
+  justify-content: space-around;
+}
+

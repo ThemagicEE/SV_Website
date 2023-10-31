@@ -43,16 +43,25 @@
     margin-right: 10%;
   }
 
-  
+  .article-preview {
+    margin-bottom: 13%;
+  }
 }
 
 
-@media all (min-width: 1025px) {
-  
+@media (min-width: 1025px) {
   .helmholtzschule-logo {
     display: unset;
-  }
-    
+  }  
   
+  .first-line {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    justify-content: end;
+  }
 
+  .helmholtzschule-logo {
+    margin-top: 2%;
+    width: fit-content;
+  }
 }
